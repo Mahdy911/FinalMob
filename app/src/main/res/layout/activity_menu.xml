@@ -29,29 +29,50 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Good Morning!"
+                android:layout_width="248dp"
+                android:layout_height="53dp"
+                android:text="Time to watch ..!"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintHorizontal_bias="0.516"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/imageView" />
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.22" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:background="@drawable/buttom_background"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_margin="32dp">
+                android:layout_height="match_parent">
 
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/search_cdt_background"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:elevation="3dp"
+                    android:hint="search for .."
+                    android:padding="8dp"
+                    android:drawableEnd="@drawable/search_icon"
+                    android:textStyle="bold|italic"
+                    android:textColor="#8d8d8d"
+                    android:layout_marginBottom="32dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="68dp" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
