@@ -70,9 +70,9 @@
                     android:ems="10"
                     android:inputType="textPersonName"
                     tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="68dp" />
+                    tools:layout_editor_absoluteY="68dp"
+                    tools:ignore="MissingConstraints" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
