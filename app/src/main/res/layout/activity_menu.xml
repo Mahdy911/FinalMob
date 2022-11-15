@@ -58,21 +58,67 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/search_cdt_background"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginStart="32dp"
-                    android:elevation="3dp"
-                    android:hint="search for .."
-                    android:padding="8dp"
                     android:drawableEnd="@drawable/search_icon"
-                    android:textStyle="bold|italic"
-                    android:textColor="#8d8d8d"
-                    android:layout_marginBottom="32dp"
+                    android:elevation="3dp"
                     android:ems="10"
+                    android:hint="search for .."
                     android:inputType="textPersonName"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="68dp"
-                    tools:ignore="MissingConstraints" />
+                    android:padding="8dp"
+                    android:textColor="#8d8d8d"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="54dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="144dp"
+                    android:layout-marginStart="32dp"
+                    android:text="How do you feel ?"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Happy"
+                    tools:layout_editor_absoluteX="158dp"
+                    tools:layout_editor_absoluteY="208dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angry"
+                    tools:layout_editor_absoluteX="158dp"
+                    tools:layout_editor_absoluteY="285dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uncomfortable"
+                    tools:layout_editor_absoluteX="122dp"
+                    tools:layout_editor_absoluteY="444dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depressed"
+                    tools:layout_editor_absoluteX="145dp"
+                    tools:layout_editor_absoluteY="368dp" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
